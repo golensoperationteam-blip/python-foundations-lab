@@ -35,7 +35,7 @@ This repository is evidence-generation infrastructure. Its existence does not au
 
 - Exercises completed: 0/20
 - Tests passing: No tests added yet
-- CI status: Pending initial setup
+- CI status: Pending verification
 - Python level: Not yet evaluated
 
 ## Evidence Policy
@@ -65,6 +65,7 @@ python-foundations-lab/
 │   └── python_foundations/
 │       └── __init__.py
 ├── tests/
+│   └── __init__.py
 ├── exercises/
 ├── notes/
 └── .github/
@@ -147,4 +148,10 @@ ci: add automated test workflow
 
 ## Status
 
-This repository is currently being initialized. No Python skill level has been assigned yet.
+This repository is initialized for Version 1. Exercises, tests, and notes will be added progressively. No Python skill level has been assigned yet.
+
+## CI Behavior
+
+The GitHub Actions workflow runs pytest and treats pytest's exit code 5 (no tests collected) as a successful initial state, while still failing the job for actual test failures. The progress statement above remains factual: no tests have been added yet.
+
+Empty `exercises/` and `notes/` directories are planned workspace locations; Git does not track empty directories until files are added.
