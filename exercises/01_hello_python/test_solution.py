@@ -1,8 +1,18 @@
+import importlib.util
 import subprocess
 import sys
 from pathlib import Path
 
-from solution import greet
+
+def _load_solution():
+    solution_path = Path(__file__).with_name("solution.py")
+    spec = importlib.util.spec_from_file_location("exercise_01_solution", solution_path)
+    solution = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(solution)
+    return solution
+
+
+greet = _load_solution().greet
 
 
 def test_greet_world():
