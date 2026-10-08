@@ -33,8 +33,8 @@ This repository is evidence-generation infrastructure. Its existence does not au
 
 ## Current Progress
 
-- Exercises completed: 3/20
-- Tests passing: Exercise 1 + Exercise 2 + Exercise 3 tests passing
+- Exercises completed: 4/20
+- Tests passing: Exercise 1 + Exercise 2 + Exercise 3 + Exercise 4 tests passing
 - CI status: Pending verification
 - Python level: Not yet evaluated
 
