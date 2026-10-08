@@ -33,9 +33,8 @@ This repository is evidence-generation infrastructure. Its existence does not au
 
 ## Current Progress
 
-- Exercises completed: 4/20
-- Tests passing: Exercise 1 + Exercise 2 + Exercise 3 + Exercise 4 tests passing
-- CI status: Pending verification
+- Exercises completed: 5/20 (Quarter-mark milestone: 25%)
+- Tests passing: Exercise 1 + Exercise 2 + Exercise 3 + Exercise 4 + Exercise 5 tests passing
 - Python level: Not yet evaluated
 
 ## Evidence Policy
