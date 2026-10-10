@@ -38,9 +38,9 @@ This repository is evidence-generation infrastructure. Its existence does not au
 
 ## Current Progress
 
-- Exercises completed: 10/20 (50%)
-- Tests: Exercises 1 through 10 have automated test coverage
-- Python level: Not yet evaluated
+- Exercises completed: 15/20 (75% THREE-QUARTER MILESTONE)
+- Tests passing: Exercise 1 through 15 tests passing
+- Python level: 2 — Guided Practice
 
 ## Evidence Policy
 
