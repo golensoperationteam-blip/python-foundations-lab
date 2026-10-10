@@ -20,6 +20,7 @@ This repository is evidence-generation infrastructure. Its existence does not au
 - Conditions, loops, and functions
 - Lists, tuples, dictionaries, and sets
 - Basic searching and sorting algorithms
+- File I/O and JSON serialization
 - Testing with pytest
 - Command-line execution
 - Reproducible documentation
@@ -33,8 +34,8 @@ This repository is evidence-generation infrastructure. Its existence does not au
 
 ## Current Progress
 
-- Exercises completed: 5/20 (Quarter-mark milestone: 25%)
-- Tests passing: Exercise 1 + Exercise 2 + Exercise 3 + Exercise 4 + Exercise 5 tests passing
+- Exercises completed: 6/20 (30%)
+- Tests: Exercises 1 through 6 have automated test coverage
 - Python level: Not yet evaluated
 
 ## Evidence Policy
@@ -119,14 +120,27 @@ Verify on main
 
 ## Testing
 
-Tests will be written with pytest. The test suite should cover:
+Tests are written with pytest. The suite should cover:
 
 - Normal inputs
 - Boundary values
 - Empty inputs
 - Invalid inputs where applicable
 - Expected exceptions
+- Command-line execution
 - Previously discovered bugs
+
+Run all tests from the repository root:
+
+```bash
+python -m pytest
+```
+
+Run Exercise 06 independently:
+
+```bash
+python -m pytest exercises/06_json_io/test_solution.py
+```
 
 ## Git Workflow
 
@@ -147,10 +161,8 @@ ci: add automated test workflow
 
 ## Status
 
-This repository is initialized for Version 1. Exercises, tests, and notes will be added progressively. No Python skill level has been assigned yet.
+The repository is initialized for Version 1. Exercises, tests, and notes are added progressively. No Python skill level has been assigned yet.
 
 ## CI Behavior
 
-The GitHub Actions workflow runs pytest and treats pytest's exit code 5 (no tests collected) as a successful initial state, while still failing the job for actual test failures. The progress statement above remains factual: no tests have been added yet.
-
-Empty `exercises/` and `notes/` directories are planned workspace locations; Git does not track empty directories until files are added.
+The GitHub Actions workflow runs pytest and treats pytest's exit code 5 (no tests collected) as a successful initial state, while still failing the job for actual test failures. The exercise progress above tracks the implemented learning exercises; CI status should be verified from the corresponding workflow run.
