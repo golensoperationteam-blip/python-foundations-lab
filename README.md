@@ -24,6 +24,7 @@ This repository is evidence-generation infrastructure. Its existence does not au
 - Object-oriented programming with classes and composition
 - Function decorators, execution profiling, and retry-based resilience
 - Generator functions, lazy evaluation, and streaming data pipelines
+- Asynchronous I/O, coroutines, concurrent task orchestration, and timeout guardrails
 - Testing with pytest
 - Command-line execution
 - Reproducible documentation
@@ -37,8 +38,8 @@ This repository is evidence-generation infrastructure. Its existence does not au
 
 ## Current Progress
 
-- Exercises completed: 9/20 (45%)
-- Tests: Exercises 1 through 9 have automated test coverage
+- Exercises completed: 10/20 (50%)
+- Tests: Exercises 1 through 10 have automated test coverage
 - Python level: Not yet evaluated
 
 ## Evidence Policy
@@ -161,6 +162,12 @@ Run Exercise 09 independently:
 
 ```bash
 python -m pytest exercises/09_generators_streaming/test_solution.py
+```
+
+Run Exercise 10 independently:
+
+```bash
+python -m pytest exercises/10_asyncio_concurrency/test_solution.py
 ```
 
 ## Git Workflow
