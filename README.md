@@ -23,6 +23,7 @@ This repository is evidence-generation infrastructure. Its existence does not au
 - File I/O and JSON serialization
 - Object-oriented programming with classes and composition
 - Function decorators, execution profiling, and retry-based resilience
+- Generator functions, lazy evaluation, and streaming data pipelines
 - Testing with pytest
 - Command-line execution
 - Reproducible documentation
@@ -36,8 +37,8 @@ This repository is evidence-generation infrastructure. Its existence does not au
 
 ## Current Progress
 
-- Exercises completed: 8/20 (40%)
-- Tests: Exercises 1 through 8 have automated test coverage
+- Exercises completed: 9/20 (45%)
+- Tests: Exercises 1 through 9 have automated test coverage
 - Python level: Not yet evaluated
 
 ## Evidence Policy
@@ -154,6 +155,12 @@ Run Exercise 08 independently:
 
 ```bash
 python -m pytest exercises/08_decorators_and_retry/test_solution.py
+```
+
+Run Exercise 09 independently:
+
+```bash
+python -m pytest exercises/09_generators_streaming/test_solution.py
 ```
 
 ## Git Workflow
