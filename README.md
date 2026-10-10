@@ -21,6 +21,7 @@ This repository is evidence-generation infrastructure. Its existence does not au
 - Lists, tuples, dictionaries, and sets
 - Basic searching and sorting algorithms
 - File I/O and JSON serialization
+- Object-oriented programming with classes and composition
 - Testing with pytest
 - Command-line execution
 - Reproducible documentation
@@ -34,8 +35,8 @@ This repository is evidence-generation infrastructure. Its existence does not au
 
 ## Current Progress
 
-- Exercises completed: 6/20 (30%)
-- Tests: Exercises 1 through 6 have automated test coverage
+- Exercises completed: 7/20 (35%)
+- Tests: Exercises 1 through 7 have automated test coverage
 - Python level: Not yet evaluated
 
 ## Evidence Policy
@@ -140,6 +141,12 @@ Run Exercise 06 independently:
 
 ```bash
 python -m pytest exercises/06_json_io/test_solution.py
+```
+
+Run Exercise 07 independently:
+
+```bash
+python -m pytest exercises/07_oop_task_manager/test_solution.py
 ```
 
 ## Git Workflow
